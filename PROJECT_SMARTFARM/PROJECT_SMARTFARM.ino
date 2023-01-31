@@ -3,17 +3,17 @@
  */
 #define BLYNK_PRINT Serial
 
-#define BLYNK_TEMPLATE_ID "TMPL3IhvBKiT"
-#define BLYNK_DEVICE_NAME "SMAR FARM"
-#define BLYNK_AUTH_TOKEN "PW-PS0iZ5GaNENoMeo2IC1vctprzso9h"
+#define BLYNK_TEMPLATE_ID "BLYNK TEMPLATE ID를 입력해주세요"
+#define BLYNK_DEVICE_NAME "DEVICE NAME을 입력해주세요"
+#define BLYNK_AUTH_TOKEN "DEVICE AUTH TOKEN 값을 입력해주세요"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "KT_GiGA_2G_makeitnow"; // ESP32가 연결할 WIFI ID
-char pass[] = "makeitnow1";           // ESP32가 연결할 WIFI PW
+char ssid[] = "WIFI ID를 입력해주세요";
+char pass[] = "WIFI PW를 입력해주세요";
 
 /*
  * OLED 디스플레이모듈 사용
