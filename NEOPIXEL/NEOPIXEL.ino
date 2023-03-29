@@ -3,6 +3,8 @@
 #define PIN 19 //GPIO19번 핀에 식물 LED 연결
 #define NUMPIXELS 9
 
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
 void setup() {
   pixels.begin();
 }
